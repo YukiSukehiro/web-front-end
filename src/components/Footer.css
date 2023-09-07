@@ -1,0 +1,32 @@
+.main-footer{
+    color: rgb(0, 0, 0);
+    background: rgb(68, 250, 68);
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100% ;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    justify-content: center;
+    display: fixed;
+    height:auto;
+}
+.col{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.row{
+    background-color: rgb(68, 250, 68);
+}
+
+.row1{
+    background-color: rgb(68, 250, 68);
+    padding: 30px 10px;
+}
+

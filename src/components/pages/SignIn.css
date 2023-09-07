@@ -1,0 +1,14 @@
+.sign-in{
+    background-image: url('./images/serve.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 91vh;
+    font-size: 3rem; 
+    
+}
