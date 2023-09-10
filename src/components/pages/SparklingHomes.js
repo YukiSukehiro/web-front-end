@@ -15,7 +15,7 @@ return (
             <p className='paragraph'>Welcome to Sparkling Homes, your one-stop shop for simple and convenient house cleaning bookings</p>
                 </div>
         </div>
-        <a href='/about'>
+        <a href='/about-us'>
         <button className='learn'> LEARN MORE
 </button>
     </a>

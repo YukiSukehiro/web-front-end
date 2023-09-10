@@ -9,7 +9,7 @@ return (
         We can connect you with reliable cleaning professionals who will transform your living space into a spotless sanctuary, 
         whether you require a one-time thorough cleaning or monthly maintenance.
         </h1><br></br>
-            <a href='/sign-up' style={{textDecoration: "none"}} >
+            <a href='/book-now' style={{textDecoration: "none"}} >
                 <button className='btn'>BOOK NOW</button></a>
                 <div className='2nd-p'>
                     <h1 className='h1-2'> What We Do</h1>

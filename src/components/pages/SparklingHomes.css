@@ -17,7 +17,7 @@
 .spark{
     color: #fdfdfd;
     position: relative;
-    font-size: 150px;
+    font-size: 100px;
     top: -140px;
     left: 90px;
 }
@@ -63,7 +63,7 @@
 .learn:active {
     opacity: 0.5;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
     .sparkling-homes{
         background-image: url('./images/img2.jpg');
         background-attachment: fixed;
@@ -107,8 +107,8 @@
     
     .learn{
         position: absolute;
-        bottom: 40vh;
-        left: 10px;
+        bottom: 30vh;
+        left: 42%;
         width: 150px;
         height: 60px;
         border-radius: 50px;

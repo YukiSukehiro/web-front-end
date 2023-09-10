@@ -88,7 +88,7 @@ export default function AboutUS () {
 <div className="packages">
 <h1 className="t1">Our Packages</h1>
 <p className="pak">Sparkling Homes aims to expand service coverage to other cities, offering premium cleaning services and a unique, personalized experience.</p>
-<div class="pack1">
+<div className="pack1">
 <div><h4 className="packs1">Description: <br></br></h4>
 <p className="des1">Kickstart your home's cleanliness with our Sparkling Starter package,<br></br>
 designed for a quick and refreshing touch.<br></br></p>
@@ -115,7 +115,7 @@ PHP 2,800
 
 </div>
 </div>
-<div class="pack2">
+<div className="pack2">
 <div><h4 className="packs2">Description: <br></br></h4>
 <p className="des2"> Dive deep into cleanliness with our Deluxe Deep Dive package, leaving no
 corner untouched.</p>
@@ -141,7 +141,7 @@ PHP 1,500
 
 
 
-<div class="pack3">
+<div className="pack3">
 <div><h4 className="packs3">Description: <br></br></h4>
 <p className="des3"> When moving in or out, choose our Fresh Start Frenzy package to give your home a<br></br> brand-new beginning</p>
 <h4 className="serv3">Services Included</h4>
@@ -167,7 +167,7 @@ PHP 2,000
 
 
 
-<div class="pack4">
+<div className="pack4">
 <div><h4 className="packs4">Description: <br></br></h4>
 <p className="des4">Create your dream cleaning experience with our customizable package. You dream it; we'll clean it.</p>
 <h4 className="serv4">Services Included</h4>
