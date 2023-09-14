@@ -5,15 +5,12 @@ export default function Services() {
 
 return (
     <>
-    <div className="services">
-        <div className='table'>
+    <div className="services" style={{}}>
+        <div className='table' style={{background: 'lightblue'}}>
+            <hr></hr>
         <h1>What we do?</h1>
         <p className='descript'>We can connect you with reliable cleaning professionals who will transform your living space
         <br></br>into a spotless sanctuary, whether you require a one-time thorough cleaning or monthly maintenance</p>
-
-
-
-
 
         <div className="card5">
         <div className="image5">
@@ -29,7 +26,7 @@ return (
         a wide range of cleaning tasks to maintain cleanliness, hygiene, and aesthetics.
         (Inclusion: Carpet and upholstery cleaning, Industrial cleaning, Post-construction cleaning.)
         </p>
-        <a className="action5" href="/book-now">
+        <a className="action5" href="/book-now" style={{background: '#0066ff', color: 'white'}}>
         BOOK NOW
         <span aria-hidden="true">
             →
@@ -58,7 +55,7 @@ return (
         The ability for homeowners to select and customize their cleaning preferences, such as the type
         of cleaning service (deep cleaning, regular maintenance, etc.), specific areas to focus on, and cleaning frequency (one-time, weekly, bi-weekly, monthly).
         </p>
-        <a className="action6" href="/book-now">
+        <a className="action6" href="/book-now" style={{background: '#0066ff', color: 'white'}}>
         BOOK NOW
         <span aria-hidden="true">
             →
@@ -91,7 +88,7 @@ return (
         be addressed in regular cleaning routines.( Carpet and upholstery cleaning, Tile and grout 
         cleaning, Kitchen appliance cleaning, and Deep cleaning of hard floors.)
         </p>
-        <a className="action7" href="/book-now">
+        <a className="action7" href="/book-now" style={{background: '#0066ff', color: 'white'}}>
         BOOK NOW
         <span aria-hidden="true">
             →
@@ -125,15 +122,15 @@ return (
         depending on the client's needs and preferences. ( Sweeping the floor, moping, 
         wiping the shelves, Window cleaning, and Bathroom cleaning.)
         </p>
-        <a className="action8" href="/book-now">
+        <a className="action8" href="/book-now" style={{background: '#0066ff', color: 'white'}}>
         BOOK NOW
         <span aria-hidden="true">
             →
         </span>
         </a>
+        
     </div>
     </div>
-
         </div>
         </div>
     </>

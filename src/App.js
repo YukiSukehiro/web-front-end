@@ -8,15 +8,18 @@ import Services from './components/pages/Services';
 import BookNow from './components/pages/BookNow';
 import AboutUs from './components/pages/AboutUS';
 import SignIn from './components/pages/SignIn';
+import Register from './components/pages/Register'
 import Footer from './components/Footer';
 
 
 function App() {
   return (
-  <>
+    <>
   <div className='page-container'>
   <Router>
+    
     <Navbar/>
+    
       <Routes>
         <Route path='/' element={<SparklingHomes/>} />
         <Route path='/home' element={<Home/>} />
@@ -24,6 +27,7 @@ function App() {
         <Route path='/book-now' element={<BookNow/>} />
         <Route path='/about-us' element={<AboutUs/>}/>
         <Route path='/sign-in' element={<SignIn/>}/>
+        <Route path='/register' element={<Register/>}/>
       </Routes>
     </Router>
   <Footer/>

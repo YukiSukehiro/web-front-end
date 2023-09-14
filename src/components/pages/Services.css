@@ -1,3 +1,7 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
 .services{
     background: linear-gradient(90deg, rgb(249, 249, 249) 0%);
     height: 230vh;
@@ -19,7 +23,7 @@ h1{
     font-family: sans-serif;
     position: absolute;
     top: 40%;
-    right: 45%;
+    right: 42%;
     color: rgb(0, 0, 0);
     font-size: 40px;
 }
@@ -29,22 +33,17 @@ h1{
     align-items: center;
     font-family: sans-serif;
     position: absolute;
-    top: 50%;
-    right: 28%;
+    top: 48%;
+    right: 26%;
     color: rgb(0, 0, 0);
     font-size: 20%;
 }
 
 
 .table{
-    width: 80% ;
+    width: 100%;
     height: 180vh;
-    border: transparent;
-    border-radius: 5px;
-    background:#6dfb79;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(360,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23FF7F4C'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(261,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='14.19'%3E%3Cpath transform='translate(-57.75 13.2) rotate(8.25 1409 581) scale(1.033)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4.73' transform='translate(-33 33) rotate(9.9 800 450) scale(1.017)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(29.7 -99) rotate(99 401 736) scale(1.017)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4.3'%3E%3Cpath transform='translate(198 -13.2) rotate(3.3 150 345) scale(0.967)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='9.46' transform='translate(-132 -82.5) rotate(118.8 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-198 66) rotate(19.8 1400 132)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
+    
 }
 
 
@@ -53,12 +52,15 @@ h1{
 .card5 {
     position: absolute;
     left: 16%;
-    bottom: -25%;
-    max-width: 600px;
+    bottom: -32%;
+    max-width: 500px;
+    max-height: 700px;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
 }
 
 .card5 a {
@@ -102,7 +104,7 @@ h1{
     font-weight: 500;
     align-items: center;
     gap: 0.25rem;
-    background-color: #55e15aca;
+    background-color: #0066ff;
     padding: 4px 8px;
     border-radius: 4px;
 }
@@ -121,13 +123,16 @@ h1{
 
 .card6 {
     position: absolute;
-    left: 52%;
-    bottom: -25%;
-    max-width: 600px;
+    left: 59%;
+    bottom: -32%;
+    max-width: 500px;
+    max-height: 700px;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
 }
 
 .card6 a {
@@ -171,7 +176,7 @@ h1{
     font-weight: 500;
     align-items: center;
     gap: 0.25rem;
-    background-color: #55e15aca;
+    background-color: #0066ff;
     padding: 4px 8px;
     border-radius: 4px;
 }
@@ -190,12 +195,15 @@ h1{
 .card7 {
     position: absolute;
     left: 16%;
-    bottom: -100%;
-    max-width: 600px;
+    bottom: -110%;
+    max-width: 500px;
+    max-height: 700px;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
 }
 
 .card7 a {
@@ -239,7 +247,7 @@ h1{
     font-weight: 500;
     align-items: center;
     gap: 0.25rem;
-    background-color: #55e15aca;
+    background-color: #0066ff;
     padding: 4px 8px;
     border-radius: 4px;
 }
@@ -257,13 +265,16 @@ h1{
 
 .card8 {
     position: absolute;
-    left: 52%;
-    bottom: -100%;
-    max-width: 600px;
+    left: 59%;
+    bottom: -110%;
+    max-width: 500px;
+    max-height: 700px;
     border-radius: 0.5rem;
     background-color: #fff;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
 }
 
 .card8 a {
@@ -307,7 +318,7 @@ h1{
     font-weight: 500;
     align-items: center;
     gap: 0.25rem;
-    background-color: #55e15aca;
+    background-color: #0066ff;
     padding: 4px 8px;
     border-radius: 4px;
 }
@@ -322,6 +333,10 @@ h1{
 
 
 @media all and (max-width: 960px) {
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
     .services{
         background: linear-gradient(90deg, rgb(249, 249, 249) 0%);
         height: 230vh;
@@ -426,7 +441,7 @@ h1{
         font-weight: 500;
         align-items: center;
         gap: 0.25rem;
-        background-color: #55e15aca;
+        background-color: #0066ff;
         padding: 4px 8px;
         border-radius: 4px;
     }
@@ -583,6 +598,328 @@ h1{
         position: absolute;
         left: 52%;
         bottom: -110%;
+        max-width: 450px;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        border: 1px solid transparent;
+    }
+    
+    .card8 a {
+        text-decoration: none
+    }
+    
+    .content8 {
+        padding: 1.1rem;
+    }
+    
+    .image8 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        width: 100%;
+        height: 270px;
+        background-image: url('./images/regular.jpg');
+    }
+    
+    .title8 {
+        color: #111827;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+    }
+    
+    .desc8 {
+        margin-top: 0.5rem;
+        color: #6B7280;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    
+    .action8 {
+        display: inline-flex;
+        margin-top: 1rem;
+        color: #ffffff;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        align-items: center;
+        gap: 0.25rem;
+        background-color: #55e15aca;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    
+    .action8 span {
+        transition: .3s ease;
+    }
+    
+    .action8:hover span {
+        transform: translateX(4px);
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .services{
+        background: linear-gradient(90deg, rgb(249, 249, 249) 0%);
+        height: 490vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-size: 100px;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    h1{
+        font-family: sans-serif;
+        position: absolute;
+        top: 80%;
+        right: 40%;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+    .descript {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: sans-serif;
+        position: absolute;
+        top: 95%;
+        right: 20.5%;
+        color: rgb(0, 0, 0);
+        font-size: 15%;
+    }
+    
+    
+    .table{
+        width: 100% ;
+        height: 370vh;
+        border: transparent;
+        border-radius: 5px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    
+    
+    
+    .card5 {
+        position: absolute;
+        left: 6%;
+        bottom: -135%;
+        max-width: 450px;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        border: 1px solid transparent;
+    }
+    
+    .card5 a {
+        text-decoration: none
+    }
+    
+    .content5 {
+        padding: 1.1rem;
+    }
+    
+    .image5 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        width: 100%;
+        height: 250px;
+        background-image: url('./images/cleaning1.jpg');
+    }
+    
+    .title5 {
+        color: #111827;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+    }
+    
+    .desc5 {
+        margin-top: 0.5rem;
+        color: #6B7280;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    
+    .action5 {
+        display: inline-flex;
+        margin-top: 1rem;
+        color: #ffffff;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        align-items: center;
+        gap: 0.25rem;
+        background-color: #0066ff;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    
+    .action5 span {
+        transition: .3s ease;
+    }
+    
+    .action5:hover span {
+        transform: translateX(4px);
+    }
+    
+    
+    
+    
+    
+    .card6 {
+        position: absolute;
+        left: 57%;
+        bottom: -135%;
+        max-width: 450px;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        border: 1px solid transparent;
+    }
+    
+    .card6 a {
+        text-decoration: none
+    }
+    
+    .content6 {
+        padding: 1rem;
+    }
+    
+    .image6 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        width: 100%;
+        height: 270px;
+        background-image: url('./images/costumize.jpg');
+    }
+    
+    .title6 {
+        color: #111827;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+    }
+    
+    .desc6 {
+        margin-top: 0.5rem;
+        color: #6B7280;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    
+    .action6 {
+        display: inline-flex;
+        margin-top: 1rem;
+        color: #ffffff;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        align-items: center;
+        gap: 0.25rem;
+        background-color: #55e15aca;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    
+    .action6 span {
+        transition: .3s ease;
+    }
+    
+    .action6:hover span {
+        transform: translateX(4px);
+    }
+    
+    
+    
+    
+    .card7 {
+        position: absolute;
+        left: 6%;
+        bottom: -280%;
+        max-width: 450px;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        border: 1px solid transparent;
+    }
+    
+    .card7 a {
+        text-decoration: none
+    }
+    
+    .content7 {
+        padding: 1.1rem;
+    }
+    
+    .image7 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        width: 100%;
+        height: 250px;
+        background-image: url('./images/deep.jpg');
+    }
+    
+    .title7 {
+        color: #111827;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 600;
+    }
+    
+    .desc7 {
+        margin-top: 0.5rem;
+        color: #6B7280;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+    
+    .action7 {
+        display: inline-flex;
+        margin-top: 1rem;
+        color: #ffffff;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        align-items: center;
+        gap: 0.25rem;
+        background-color: #55e15aca;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    
+    .action7 span {
+        transition: .3s ease;
+    }
+    
+    .action7:hover span {
+        transform: translateX(4px);
+    }
+    
+    
+    
+    
+    .card8 {
+        position: absolute;
+        left: 57%;
+        bottom: -280%;
         max-width: 450px;
         border-radius: 0.5rem;
         background-color: #fff;

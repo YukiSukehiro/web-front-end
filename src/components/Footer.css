@@ -1,6 +1,6 @@
 .main-footer{
     color: rgb(0, 0, 0);
-    background: rgb(68, 250, 68);
+    background: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
     padding: 10px;
     position: relative;
     bottom: 0;
@@ -20,13 +20,71 @@
 }
 
 
-
 .row{
-    background-color: rgb(68, 250, 68);
+    background-color: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
+    width: 100%;
 }
 
 .row1{
-    background-color: rgb(68, 250, 68);
+    background-color: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
     padding: 30px 10px;
 }
 
+.social{
+    position:relative;
+    font-size: 25px;
+    top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.fa-square-facebook{
+    position:relative;
+    text-decoration: none;
+    color: black;
+    left: -32px;
+    display: inline-block;
+    transition: transform 0.5s;
+    font-size: 30px;
+}
+
+.fa-square-facebook:hover{
+    text-decoration: none;
+    color:#ffffff;
+    transform: translateY(-5px);
+}
+
+
+
+.fa-square-instagram{
+    position:relative;
+    text-decoration: none;
+    color: black;
+    right: 1px;
+    top: -38px;
+    display: inline-block;
+    transition: transform 0.5s;
+    font-size: 30px;
+}
+
+.fa-square-instagram:hover{
+    color:#ffffff;
+    transform: translateY(-5px);
+}
+
+.fa-square-twitter{
+    position:relative;
+    text-decoration: none;
+    color: black;
+    left: 30px;
+    top: -75px;
+    display: inline-block;
+    transition: transform 0.5s;
+    font-size: 30px;
+}
+
+.fa-square-twitter:hover{
+    color:#ffffff;
+    transform: translateY(-5px);
+}

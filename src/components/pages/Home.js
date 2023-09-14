@@ -2,19 +2,20 @@ import React from 'react';
 import './Home.css';
 
 export default function Home() {
+    
 return (
     <>
     <div className='home'>
-        <h1 className='h1'>Welcome to Sparkling Homes, 
+        <div className='heads1'>Welcome to Sparkling Homes, 
         We can connect you with reliable cleaning professionals who will transform your living space into a spotless sanctuary, 
         whether you require a one-time thorough cleaning or monthly maintenance.
-        </h1><br></br>
+        </div>
             <a href='/book-now' style={{textDecoration: "none"}} >
-                <button className='btn'>BOOK NOW</button></a>
-                <div className='2nd-p'>
-                    <h1 className='h1-2'> What We Do</h1>
-                <p className='par'>We can connect you with reliable cleaning professionals who will transform your living space into a spotless sanctuary, 
-                whether you require a one-time thorough cleaning or monthly maintenance.</p>
+                <button className='pindot'>BOOK NOW</button></a>
+                <div className='nd-p'>
+                    <div className='what'> What We Do</div>
+                <div className='vnd-p'>We can connect you with reliable cleaning professionals who will transform your living space into a spotless sanctuary, 
+                whether you require a one-time thorough cleaning or monthly maintenance.</div>
                 </div>
 
 
@@ -22,7 +23,7 @@ return (
 
 
 
-                <div className="card">
+                <div className="card0">
         <div className="image">
         </div>
         <div className="content">

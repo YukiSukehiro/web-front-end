@@ -247,7 +247,7 @@
     left: 6%;
     top: 260%;
     width:90%;
-    height: 170vh;
+    height: 197vh;
     border: transparent;
     border-radius: 5px;
     background-image: url('./images/pack.jpg');
@@ -259,7 +259,7 @@
     font-size: 1.5rem;
     position:relative;
     top: 20px;
-    left: 10%;
+    left: 1%;
 }
 
 .pak{
@@ -267,15 +267,16 @@
     font-size: 1.2rem;
     position:relative;
     top: 20px;
-    left: 10%;
+    left: 1%;
+    
 }
 
 .pack1 {
     position: relative;
     right: -10%;
-    top: 15%;
+    top: 5%;
     width: 33%;
-    height: 554px;
+    height: 750px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
@@ -403,7 +404,7 @@
 
 .price1{
     position: absolute;
-    bottom: 5vh;
+    bottom: 2vh;
     left: 35%;
     width: 160px;
     height: 50px;
@@ -434,9 +435,9 @@
 .pack2 {
     position: relative;
     right: -57%;
-    top: -20.5%;
+    top: -34.99%;
     width: 33%;
-    height: 554px;
+    height: 750px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
@@ -503,7 +504,7 @@
 }
 .servi2{
     text-align: start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 80px;
     left: 10%;
@@ -519,7 +520,7 @@
 
 .dusty4{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 110px;
     left: 10%;
@@ -534,7 +535,7 @@
 
 .dusty5{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 130px;
     left: 10%;
@@ -550,7 +551,7 @@
 
 .dusty6{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 150px;
     left: 10%;
@@ -563,7 +564,7 @@
 
 .price2{
     position: absolute;
-    bottom: 5vh;
+    bottom: 2vh;
     left: 35%;
     width: 160px;
     height: 50px;
@@ -601,9 +602,9 @@
 .pack3 {
     position: relative;
     right: -10%;
-    top: -10%;
+    top: -30%;
     width: 33%;
-    height: 554px;
+    height: 750px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
@@ -671,7 +672,7 @@
 
 .servi3{
     text-align: start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 85px;
     left: 10%;
@@ -687,7 +688,7 @@
 
 .surface{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 110px;
     left: 10%;
@@ -702,7 +703,7 @@
 
 .bat{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 130px;
     left: 10%;
@@ -720,7 +721,7 @@
 
 .kudos{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 150px;
     left: 10%;
@@ -736,7 +737,7 @@
 
 .rev{
     text-align:start;
-    font-size: 1rem;
+    font-size: 0.80rem;
     position: relative;
     top: 180px;
     left: 10%;
@@ -789,9 +790,9 @@
 .pack4 {
     position: relative;
     right: -57%;
-    top: -45%;
+    top: -71.3%;
     width: 33%;
-    height: 554px;
+    height: 755px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
@@ -888,7 +889,7 @@
 
 .price4{
     position: absolute;
-    bottom: 5vh;
+    bottom: 2.5vh;
     left: 35%;
     width: 160px;
     height: 50px;
