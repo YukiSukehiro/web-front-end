@@ -1,16 +1,16 @@
-.appointment {
+.log {
 transition: all 0.3s ease-in-out;
 font-family: "Dosis", sans-serif;
 
 }
 
-.appointment {
+.log {
 padding: 0px 0.2em auto;
 margin: 0px auto;
 font-family: sans-serif;
 position: relative;
-width: 180px;
-height: 60px;
+width: 140px;
+height: 40px;
 border-radius: 50px;
 background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
 box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
@@ -19,15 +19,15 @@ cursor: pointer;
 border: none;
 font-size: 15px;
 color: rgb(255, 255, 255);
-bottom: -1%;
-left: 26%;
+bottom: 50px;
+left: 1%;
 }
 
-.appointment:hover {
+.log:hover {
     transform: translateY(3px);
     box-shadow: none;
 }
 
-.appointment:active {
+.log:active {
 opacity: 0.5;
 }

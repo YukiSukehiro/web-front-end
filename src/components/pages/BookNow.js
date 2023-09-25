@@ -37,7 +37,7 @@ function BookNow () {
             <div className='d-flex justify-content-center align-items-center bg-transparent vh-200'>
             <div className='bg-white p-3 rounded ' style={{width: '450px', height: '690px'}}>
             <img className="" src={logo} width={110} style={{borderRadius: "250px", height: '110px', position: 'relative', left: '155px'}} alt='upang'/>
-                <h2 style={{position: 'relative', left: '155px', bottom: '-10px'}}>Services</h2>
+                <h2 style={{position: 'relative', left: '155px', bottom: '-10px', width: '100px'}}>Services</h2>
             <div className='mb-3'>
             <label htmlforfor='name' style={{fontSize: '20px'}}>Name
             <input style={{width: '200%'}} autoComplete="name" type='name' placeholder='yun name mo'  name='name' className='form-control rounded-0' 
@@ -76,11 +76,11 @@ function BookNow () {
             </div>
             </div>
             </div>
-            <button type="submit" className='log-in' style={{position: 'absolute', top: '72%', left: '44.6%',width: '200px', height: '47px', fontSize: '15px', color: 'white'}}><strong>Appointment</strong></button>
+            <button type="submit" className='log' ><strong 
+            >Appointment</strong></button>
             </form>
         </div>
     );
 }
-
 
 export default BookNow;
