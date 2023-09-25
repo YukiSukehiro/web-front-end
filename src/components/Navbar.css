@@ -1,6 +1,6 @@
 .navbar {
-    background:linear-gradient(135deg, #0048ff 0%, #74abff 100%);
-    height: 80px;
+    background:linear-gradient(135deg, #85ccf8 0%, #85ccf8 100%);
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,16 +65,19 @@
 
 
 .nav-links-mobile {
-    display: none;
+   background-color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   padding: 6px 20px;
 }
 
 .menu-icon {
     display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
     .navbar {
-        background: linear-gradient(135deg, #0048ff 0%, #74abff 100%);
+        background: linear-gradient(135deg, #85ccf8 0%, #85ccf8 100%);
         height: 100px;
         width: 100%;
         display: flex;
@@ -129,16 +132,17 @@
     height: 50vh;
     position: absolute;
     top: 80px;
-    left: -150%;
+    left: -100%;
     opacity: 1;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s;
+    background: linear-gradient(135deg, #85ccf8 0%, #85ccf8 100%);
     }
 
     .nav-menu.active {
-    background: linear-gradient(135deg, #0048ff 0%, #74abff 100%);
+    background: linear-gradient(135deg, #85ccf8 0%, #85ccf8 100%);
     left: 0px;
     opacity: 1;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.9s ease-in-out;
     z-index: 1;
     }
 
@@ -153,7 +157,7 @@
     .nav-links:hover {
         margin: 0px;
         padding: 0px;
-    background-color: #5d90ff;
+    color: #000000;
     border-radius: 0;
     }
 
@@ -186,15 +190,14 @@
     margin: 0px 1em auto;
     border-radius: 4px;
     width: 1000%;
-    background: linear-gradient(135deg, #0048ff 0%, #74abff 100%);
+    background:linear-gradient(135deg, #85ccf8 0%, #85ccf8 100%);
     text-decoration: none;
     color: #ffffff;
     font-size: 1.5rem;
     }
 
     .nav-links-mobile:hover {
-    background: linear-gradient(135deg, #0048ff 0%, #74abff 100%);
-    color: #ffffff;
+    color: #000000;
     transition: 250ms;
     }
 

@@ -1,5 +1,5 @@
 .sparkling-homes{
-    background-image: url('./images/img2.jpg');
+    background-image: url('./images/home11.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -7,6 +7,7 @@
     font-size: 100px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     display: flex;
     height: 91vh;
     font-size: 3rem; 
@@ -42,13 +43,10 @@
 }
 
 .learn{
-    position: absolute;
-    bottom: 25%;
-    left: 45%;
     width: 150px;
     height: 60px;
     border-radius: 50px;
-    background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
+    background-image:linear-gradient(135deg, #94d5fd 0%, #31a7f0 100%);
     box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
     outline: none;
     cursor: pointer;
@@ -67,7 +65,7 @@
 }
 @media screen and (max-width: 960px) {
     .sparkling-homes{
-        background-image: url('./images/img2.jpg');
+        background-image: url('./images/home11.jpg');
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -94,7 +92,7 @@
     
     .paragraph{
         position: relative;
-        text-align: left;
+        text-align: center;
         font-size: 10px;
         top: -90px;
         left: 0.5px;
@@ -110,9 +108,6 @@
     }
     
     .learn{
-        position: absolute;
-        bottom: 30vh;
-        left: 42%;
         width: 150px;
         height: 60px;
         border-radius: 50px;

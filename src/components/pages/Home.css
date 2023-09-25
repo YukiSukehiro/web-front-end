@@ -3,33 +3,41 @@ body{
   padding: 0%;
   margin: 0%;
 }
+.home-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .home
 {
+  text-align: center;
   margin: 0px auto;
   padding: 0px auto;
-  background-image: url('./images/product.jpg');
+  background-image: url('./images/bg1.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   width: 100% !important;
-  height: 190vh;
+  min-height: 190vh;
   align-items: center;
   text-align: center;
   font-size: 3rem; 
   color: #ffffff;
 }
 
-
-
 .heads1{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    position: relative;
-    left: 3.1%;
-    font-size: 23px;
+    max-width: 800px;
+    font-size: 30px;
     top: -40%;
-    padding: 0px 1em;
+    padding: 1em;
     margin: 0px;
+    text-wrap: balance;
 }
 
 
@@ -43,17 +51,16 @@ body{
   padding: 0px 0.2em auto;
   margin: 0px auto;
   font-family: sans-serif;
-  position: relative;
   width: 150px;
   height: 60px;
   border-radius: 50px;
-  background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
+  background-image:linear-gradient(135deg, #94d5fd 0%, #31a7f0 100%);
   box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
   outline: none;
   cursor: pointer;
   border: none;
   font-size: 20px;
-  color: rgb(4, 4, 4);
+  color: rgb(255, 255, 255);
   bottom: 490px;
   left: -587%;
 }
@@ -71,31 +78,27 @@ body{
   color: #fff;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  position: relative;
   left: 10%;
   font-size: 30px;
-  top: -130px;
   padding: 0px 0.2em;
-  margin: 0px;
-  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .nd-p{
+  margin-top: 20px;
   color: #fff;
   text-align: center;
   align-items: center;
   font-family: 'Poppins', sans-serif;
-  position: absolute;
   left: -0.5%;
   font-size: 30px;
   top: 85%;
   padding: 0px 0.2em auto;
-  margin: 0px auto;
 }
 
 
 .card0 {
-  position: absolute;
   left: 9%;
   bottom: -75%;
   max-width: 300px;
@@ -109,7 +112,7 @@ body{
   text-decoration: none
 }
 
-.content {
+.content0 {
   padding: 1.1rem;
 }
 
@@ -159,12 +162,7 @@ body{
   transform: translateX(4px);
 }
 
-
-
-
-
 .card-1 {
-  position: absolute;
   left: 31%;
   bottom: -75%;
   max-width: 300px;
@@ -231,7 +229,6 @@ body{
 
 
 .card-2 {
-  position: absolute;
   left: 52%;
   bottom: -75%;
   max-width: 300px;
@@ -298,7 +295,6 @@ body{
 
 
 .card-3 {
-  position: absolute;
   left: 75%;
   bottom: -75%;
   max-width: 300px;
@@ -363,76 +359,38 @@ body{
 }
 
 @media screen and (max-width: 1200px){
-  body{
-    padding: 0%;
-    margin: 0%;
-  }
 
   .home
-{
-  margin: 0px auto;
-  padding: 0px auto;
-  background-image: url('./images/product.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  width: 100% !important;
-  height: 290vh;
-  align-items: center;
-  text-align: center;
-  font-size: 3rem; 
-  color: #ffffff;
-}
+  {
+    margin: 0px auto;
+    padding: 0px auto;
+    background-image: url('./images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100% !important;
+    height: 290vh;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem; 
+    color: #ffffff;
+  }
 
 
   .heads1{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    position: relative;
     left: 6.5%;
-    font-size: 23px;
+    font-size: 30px;
     top: -40%;
     padding: 0px 1em;
     margin: 0px;
 }
   
-.pindot {
-  transition: all 0.3s ease-in-out;
-  font-family: "Dosis", sans-serif;
-  
-}
 
-.pindot {
-  padding: 0px 0.2em auto;
-  margin: 0px auto;
-  font-family: sans-serif;
-  position: relative;
-  width: 150px;
-  height: 60px;
-  border-radius: 50px;
-  background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
-  box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
-  outline: none;
-  cursor: pointer;
-  border: none;
-  font-size: 20px;
-  color: rgb(4, 4, 4);
-  bottom: 790px;
-  left: -355%;
-}
-
-.pindot:hover {
-  transform: translateY(3px);
-  box-shadow: none;
-}
-
-.pindot:active {
-  opacity: 0.5;
-}
 
 
 .card0 {
-  position: absolute;
   left: 9%;
   bottom: -100.9%;
   max-width: 400px;
@@ -500,7 +458,6 @@ body{
 
 
 .card-1 {
-  position: absolute;
   left: 58%;
   bottom: -100.9%;
   max-width: 400px;
@@ -567,7 +524,6 @@ body{
 
 
 .card-2 {
-  position: absolute;
   left: 57.9%;
   bottom: -185.9%;
   max-width: 400px;
@@ -634,7 +590,6 @@ body{
 
 
 .card-3 {
-  position: absolute;
   left: 8.9%;
   bottom: -185.9%;
   max-width: 400px;
@@ -720,7 +675,6 @@ body{
   .heads1{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    position: relative;
     left: 8%;
     font-size: 23px;
     top: -40%;
@@ -728,43 +682,9 @@ body{
     margin: 0px;
 }
   
-.pindot {
-  transition: all 0.3s ease-in-out;
-  font-family: "Dosis", sans-serif;
-  
-}
-
-.pindot {
-  padding: 0px 0.2em auto;
-  margin: 0px auto;
-  font-family: sans-serif;
-  position: relative;
-  width: 150px;
-  height: 60px;
-  border-radius: 50px;
-  background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
-  box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
-  outline: none;
-  cursor: pointer;
-  border: none;
-  font-size: 20px;
-  color: rgb(4, 4, 4);
-  bottom: 790px;
-  left: -270%;
-}
-
-.pindot:hover {
-  transform: translateY(3px);
-  box-shadow: none;
-}
-
-.pindot:active {
-  opacity: 0.5;
-}
 
 
 .card0 {
-  position: absolute;
   left: 9%;
   bottom: -110.4%;
   max-width: 314px;
@@ -832,7 +752,6 @@ body{
 
 
 .card-1 {
-  position: absolute;
   left: 58%;
   bottom: -110.4%;
   max-width: 300px;
@@ -899,7 +818,6 @@ body{
 
 
 .card-2 {
-  position: absolute;
   left: 57.9%;
   bottom: -202.9%;
   max-width: 301px;
@@ -966,7 +884,6 @@ body{
 
 
 .card-3 {
-  position: absolute;
   left: 8.9%;
   bottom: -202.9%;
   max-width: 318px;
@@ -1050,68 +967,22 @@ body{
     color: #ffffff;
   }
 
-  .what{
-    color: #fff;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    left: 25%;
-    font-size: 30px;
-    top: -130px;
-    padding: 0px auto;
-    margin: 0%;
-    width: 50%;
-  }
+
   
   
     .heads1{
       color: #ffffff;
       font-family: 'Poppins', sans-serif;
       text-align: center;
-      position: absolute;
       left: 5%;
       font-size: 20px;
       top: 100px;
       width: 90%;
   }
     
-  .pindot {
-    transition: all 0.3s ease-in-out;
-    font-family: "Dosis", sans-serif;
-    
-  }
-  
-  .pindot {
-    padding: 0px auto;
-    margin: 0px auto;
-    font-family: sans-serif;
-    position: absolute;
-    width: 150px;
-    height: 60px;
-    border-radius: 50px;
-    background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
-    box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
-    outline: none;
-    cursor: pointer;
-    border: none;
-    font-size: 20px;
-    color: rgb(4, 4, 4);
-    bottom: -500px;
-    left: -600%;
-  }
-  
-  .pindot:hover {
-    transform: translateY(3px);
-    box-shadow: none;
-  }
-  
-  .pindot:active {
-    opacity: 0.5;
-  }
   
   
   .card0 {
-    position: absolute;
     left: 8.44%;
     bottom: -120.5%;
     max-width: 400px;
@@ -1182,7 +1053,6 @@ body{
   
   
   .card-1 {
-    position: absolute;
     left: 9%;
     bottom: -210.9%;
     max-width: 400px;
@@ -1252,7 +1122,6 @@ body{
   
   
   .card-2 {
-    position: absolute;
     left: 9%;
     bottom: -300.9%;
     max-width: 400px;
@@ -1322,7 +1191,6 @@ body{
   
   
   .card-3 {
-    position: absolute;
     left: 8.9%;
     bottom: -390.9%;
     max-width: 400px;

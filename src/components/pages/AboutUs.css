@@ -1,1829 +1,245 @@
-.about-us {
+.about-us{
+    text-align: center;
+
+}
+.about-banner {
+    min-height: 100vh;
     display: flex;
-    width: 100%;
-    height: 450vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(60%);
+    background-image: url('./images/serve.jpg');
+    color: rgb(252, 252, 252);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+
+}
+.text {
+    max-width: 800px;
+    font-size: 15px;
+}
+.card-container .card {
+    width: 390px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
-    background-color: #ffffff;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.serve{
+    text-align: center;
+    gap: 10px;
+    background-color: #52b4ff;
+    border-radius: 15px;
     position: relative;
-    top: -42.5%;
-    opacity: 0.5 ;
-
+    overflow: hidden;
 }
-
-.abt{
-    font-family: sans-serif;
-    color: rgb(0, 105, 0);
+.card::before {
+    content: "";
+    width: 390px;
+    height: 100px;
     position: absolute;
-    left: 100px;
-    top: 150px;
-    font-size: 35px;
-}
-
-.text{
-    position:absolute;
-    left: 100px;
-    top: 250px;
-    font-size: 20px;
-}
-
-.brd{
-    position: absolute;
-    left: 8%;
-    top: 140%;
-    width: 85% ;
-    height: 90vh;
-    border: transparent;
-    border-radius: 5px;
-    background:#6dfb79;
-    background-attachment: fixed;
+    top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 3px solid #fefefe;
+    background-image:  url('./images/home1.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+  }
+  
+  .card * {
+    z-index: 1;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.5s ease;
+  }
+  .content span {
+    font-weight: 600;
+    font-size: 24px;
+    color: #161A42;
+    margin-top: 15px;
+    line-height: 5px;
+  }
+  
+  .content p {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .buttoned {
+    text-decoration: none;
+    background-color: #1468BF;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+  }
+
+  .card:hover::before {
+    width: 350px;
+    height: 300px;
+    border-bottom: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transform: scale(0.95);
+  }
+  
+  .card:hover .content {
+    transform: translate(0%,-25%);
+  }
+  
+.card:hover .imageclean1{
+    transform: scale(2) translate(-5%,-2%);
+}
+.card:hover .imageclean2{
+    transform: scale(2) translate(-5%,-2%);
+}
+.card:hover .imageclean3{
+    transform: scale(2) translate(-5%,-2%);
+}
+.card:hover .imageclean4{
+    transform: scale(2) translate(-5%,-2%);
 }
 
-.best{
-    font-family: sans-serif;
-    position:absolute;
-    top: 50px;
-    
-}
-
-
-.sprk{
-    position: absolute;
-    font-family: sans-serif;
-    font-size: 30px;
-    top: 90px;
-    left: 100px;
-}
-
-
-
-.clean1 {
-    position: absolute;
-    left: 10%;
-    bottom: -115%;
-    max-width: 350px;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
-}
-
-.cardclean1 a {
-    text-decoration: none
-}
-
-.contentclean1 {
-    padding: 1.1rem;
+.buttoned:hover {
+    background-color: #FF6844;
+    transform: scale(1.1);
 }
 
 .imageclean1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 6px;
-    width: 100%;
-    height: 250px;
-    background-image: url('./images/cleaning1.jpg');
-}
-
-.titleclean1 {
-    color: #111827;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 600;
-}
-
-.descclean1 {
-    margin-top: 0.5rem;
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-}
-
-
-
-
-.clean2 {
-    position: absolute;
-    left: 31%;
-    bottom: -115%;
-    max-width: 350px;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
-}
-
-.clean2 a {
-    text-decoration: none
-}
-
-.contentcclean2 {
-    padding: 1.1rem;
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #fefefe;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    background-image: url('./images/Diaz.jpg');
 }
 
 .imageclean2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 6px;
-    width: 100%;
-    height: 250px;
-    background-image: url('./images/costumize.jpg');
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #fefefe;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    background-image: url('./images/jayvee.jpg');
 }
-
-.titleclean2 {
-    color: #111827;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 600;
-}
-
-.descclean2 {
-    margin-top: 0.5rem;
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-}
-
-
-
-.clean3  {
-    position: absolute;
-    left: 52%;
-    bottom: -115%;
-    max-width: 350px;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
-}
-
-.clean3  a {
-    text-decoration: none
-}
-
-.contentcclean3  {
-    padding: 1.1rem;
-}
-
 .imageclean3 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 6px;
-    width: 100%;
-    height: 250px;
-    background-image: url('./images/deep.jpg');
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #fefefe;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    background-image: url('./images/Hetler.jpg');
 }
-
-.titleclean3  {
-    color: #111827;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 600;
-}
-
-.descclean3 {
-    margin-top: 0.5rem;
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-}
-
-
-.clean4  {
-    position: absolute;
-    left: 72.5%;
-    bottom: -115%;
-    max-width: 350px;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
-}
-
-.clean4  a {
-    text-decoration: none
-}
-
-.contentcclean4  {
-    padding: 1.6rem;
-}
-
 .imageclean4 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 6px;
-    width: 100%;
-    height: 255px;
-    background-image: url('./images/regular.jpg');
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #fefefe;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    background-image: url('./images/Rishia.jpg');
 }
-
-.titleclean4  {
-    color: #111827;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 600;
-}
-
-.descclean4 {
-    margin-top: 0.5rem;
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-}
-
-.packages{
-    position: absolute;
-    left: 6%;
-    top: 260%;
-    width:90%;
-    height: 197vh;
-    border: transparent;
-    border-radius: 5px;
-    background-image: url('./images/pack.jpg');
-    background-size: cover;
-}
-
-.t1{
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    position:relative;
-    top: 20px;
-    left: 1%;
-}
-
-.pak{
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    position:relative;
-    top: 20px;
-    left: 1%;
-    
-}
-
-.pack1 {
-    position: relative;
-    right: -10%;
-    top: 5%;
-    width: 33%;
-    height: 750px;
+.pack {
+    max-width: 500px;
+    height: 800px;
+    padding: 19.5px;
+    border: 2px solid rgb(69, 69, 69);   
+    border-radius: 12px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
-    border-radius: 20px;
     justify-content: center;
     position: relative;
     transition: all .4s;
+
 }
 
-.pack1::before {
-    content: 'Package 1: Sparkling Starter';
+.pack::before {    
     letter-spacing: 0.2rem;
     position: absolute;
-    bottom: 8px;
-    left: 20px;
+    bottom: 20px;
+    left: 27px;
     color: rgb(51, 51, 51);
-    font-size: 0.5em;
+    font-size: 0.9em;
     font-weight: 700;
+    content: 'Make your Homes Sparkly!';
 }
 
-.pack1 div {
+
+.pack div {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-
     z-index: 10;
     transition: all .4s;
     background-color: #fff;
 }
 
-.pack1:hover div {
+.pack:hover div {
     transform: translateY(-30px);
 }
 
-.packs1{
+.pack{
     text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 10px;
 }
 
-.des1{
-    text-align: center;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
-}
-
-
-.serv1{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 40px;
-}
-
-.servi1{
-    text-align: start;
-    font-size: 1rem;
-    position: relative;
-    top: 85px;
-    left: 10%;
-}
-
-.vacc{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 80px;
-    left: 10%;
-}
-
-.dust1{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 100px;
-    left: 10%;
-}
-
-.dusty1{
-    text-align:start;
-    font-size: 1rem;
-    position: relative;
-    top: 110px;
-    left: 10%;
-}
-.dust2{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 120px;
-    left: 10%;
-}
-
-.dusty2{
-    text-align:start;
-    font-size: 1rem;
-    position: relative;
-    top: 130px;
-    left: 10%;
-}
-
-.dust3{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 140px;
-    left: 10%;
-}
-
-.dusty3{
-    text-align:start;
-    font-size: 1rem;
-    position: relative;
-    top: 150px;
-    left: 10%;
-}
-
-.price1 {
+.price{
     transition: all 0.3s ease-in-out;
     font-family: "Dosis", sans-serif;
 }
 
-.price1{
-    position: absolute;
-    bottom: 2vh;
-    left: 35%;
+.price{
+    bottom: -2vh;
+    left: 30%;
     width: 160px;
     height: 50px;
     border-radius: 50px;
-    background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-    box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
+    background-image: linear-gradient(135deg, #50e9fa 0%, #39daec 100%);
+    box-shadow: 0 20px 30px -6px rgba(78, 218, 253, 0.753);
     outline: none;
     cursor: pointer;
     border: none;
+    position: relative;
     font-size: 18px;
     color: rgb(0, 0, 0);
+    
 }
 
-.price1:hover {
+.price:hover {
     transform: translateY(3px);
     box-shadow: none;
 }
 
-.price1:active {
+.price:active {
     opacity: 0.5;
 }
 
-
-
-
-
-
-.pack2 {
-    position: relative;
-    right: -57%;
-    top: -34.99%;
-    width: 33%;
-    height: 750px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-    background: #fff;
-    display: flex;
-    border-radius: 20px;
-    justify-content: center;
-    position: relative;
-    transition: all .4s;
-}
-
-.pack2::before {
-    content: 'Package 2: Deluxe Deep Dive';
-    letter-spacing: 0.2rem;
-    position: absolute;
-    bottom: 8px;
-    left: 20px;
-    color: rgb(51, 51, 51);
-    font-size: 0.5em;
-    font-weight: 700;
-}
-
-.pack2 div {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-
-    z-index: 10;
-    transition: all .4s;
-    background-color: #fff;
-}
-
-.pack2:hover div {
-    transform: translateY(-30px);
-}
-
-.packs2{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 10px;
-}
-
-.des2{
-    text-align: center;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
-}
-
-
-.serv2{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 40px;
-}
-
-.floor{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 70px;
-    left: 10%;
-}
-.servi2{
-    text-align: start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 80px;
-    left: 10%;
-}
-
-.dust4{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 100px;
-    left: 10%;
-}
-
-.dusty4{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 110px;
-    left: 10%;
-}
-.dust5{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 120px;
-    left: 10%;
-}
-
-.dusty5{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 130px;
-    left: 10%;
-}
-
-.dust6{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 140px;
-    left: 10%;
-}
-
-.dusty6{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 150px;
-    left: 10%;
-}
-
-.price2 {
-    transition: all 0.3s ease-in-out;
-    font-family: "Dosis", sans-serif;
-}
-
-.price2{
-    position: absolute;
-    bottom: 2vh;
-    left: 35%;
-    width: 160px;
-    height: 50px;
-    border-radius: 50px;
-    background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-    box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-    outline: none;
-    cursor: pointer;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-}
-
-.price2:hover {
-    transform: translateY(3px);
-    box-shadow: none;
-}
-
-.price2:active {
-    opacity: 0.5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pack3 {
-    position: relative;
-    right: -10%;
-    top: -30%;
-    width: 33%;
-    height: 750px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-    background: #fff;
-    display: flex;
-    border-radius: 20px;
-    justify-content: center;
-    position: relative;
-    transition: all .4s;
-}
-
-.pack3::before {
-    content: 'Package 3: Fresh Start Frenzy';
-    letter-spacing: 0.2rem;
-    position: absolute;
-    bottom: 8px;
-    left: 20px;
-    color: rgb(51, 51, 51);
-    font-size: 0.5em;
-    font-weight: 700;
-}
-
-.pack3 div {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-
-    z-index: 10;
-    transition: all .4s;
-    background-color: #fff;
-}
-
-.pack3:hover div {
-    transform: translateY(-30px);
-}
-
-.packs3{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 10px;
-}
-
-.des3{
-    text-align: center;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
-}
-
-
-.serv3{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 40px;
-}
-
-.magic{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 70px;
-    left: 10%;
-}
-
-.servi3{
-    text-align: start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 85px;
-    left: 10%;
-}
-
-.surf{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 100px;
-    left: 10%;
-}
-
-.surface{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 110px;
-    left: 10%;
-}
-.bath{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 120px;
-    left: 10%;
-}
-
-.bat{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 130px;
-    left: 10%;
-}
-
-
-
-.kud{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 140px;
-    left: 10%;
-}
-
-.kudos{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 150px;
-    left: 10%;
-}
-
-.frid{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 160px;
-    left: 10%;
-}
-
-.rev{
-    text-align:start;
-    font-size: 0.80rem;
-    position: relative;
-    top: 180px;
-    left: 10%;
-}
-
-.price3 {
-    transition: all 0.3s ease-in-out;
-    font-family: "Dosis", sans-serif;
-}
-
-.price3{
-    position: absolute;
-    bottom: 3vh;
-    left: 35%;
-    width: 160px;
-    height: 50px;
-    border-radius: 50px;
-    background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-    box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-    outline: none;
-    cursor: pointer;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-}
-
-.price3:hover {
-    transform: translateY(3px);
-    box-shadow: none;
-}
-
-.price3:active {
-    opacity: 0.5;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pack4 {
-    position: relative;
-    right: -57%;
-    top: -71.3%;
-    width: 33%;
-    height: 755px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-    background: #fff;
-    display: flex;
-    border-radius: 20px;
-    justify-content: center;
-    position: relative;
-    transition: all .4s;
-}
-
-.pack4::before {
-    content: 'Package 4: Your Dream Clean';
-    letter-spacing: 0.2rem;
-    position: absolute;
-    bottom: 8px;
-    left: 20px;
-    color: rgb(51, 51, 51);
-    font-size: 0.5em;
-    font-weight: 700;
-}
-
-.pack4 div {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-
-    z-index: 10;
-    transition: all .4s;
-    background-color: #fff;
-}
-
-.pack4:hover div {
-    transform: translateY(-30px);
-}
-
-.packs4{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 10px;
-}
-
-.des4{
-    text-align: center;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
-}
-
-
-.serv4{
-    text-align: center;
-    font-size: 1.1rem;
-    position: relative;
-    top: 40px;
-}
-
-.serving{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 80px;
-    left: 10%;
-}
-.servi4{
-    text-align: start;
-    font-size: 1rem;
-    position: relative;
-    top: 85px;
-    left: 10%;
-}
-
-.cost{
-    text-align: start;
-    font-size: 1.1rem;
-    position: relative;
-    top: 90px;
-    left: 10%;
-}
-
-.costy{
-    text-align: start;
-    font-size: 1rem;
-    position: relative;
-    top: 100px;
-    left: 10%;
-}
-
-
-.price4 {
-    transition: all 0.3s ease-in-out;
-    font-family: "Dosis", sans-serif;
-}
-
-.price4{
-    position: absolute;
-    bottom: 2.5vh;
-    left: 35%;
-    width: 160px;
-    height: 50px;
-    border-radius: 50px;
-    background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-    box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-    outline: none;
-    cursor: pointer;
-    border: none;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-}
-
-.price4:hover {
-    transform: translateY(3px);
-    box-shadow: none;
-}
-
-.price4:active {
-    opacity: 0.5;
-}
-
-@media all and (max-width: 960px) {
-    .about-us {
-        display: flex;
-        width: 100%;
-        height: 450vh;
-        align-items: center;
-        justify-content: center;
-        font-size: 3rem;
-        background-color: #ffffff;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    
-    .serve{
-        position: relative;
-        top: -42.5%;
-        opacity: 0.5 ;
-    
-    }
-    
-    .abt{
-        font-family: sans-serif;
-        color: rgb(0, 105, 0);
-        position: absolute;
-        left: 60px;
-        top: 150px;
-        font-size: 35px;
-    }
-    
-    .text{
-        position:absolute;
-        left: 60px;
-        top: 250px;
-        font-size: 20px;
-    }
-    
-    .brd{
-        position: absolute;
-        left: 8%;
-        top: 100%;
-        width: 85% ;
-        height: 150vh;
-        border: transparent;
-        border-radius: 5px;
-        background:#6dfb79;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    
-    .best{
-        font-family: sans-serif;
-        position:absolute;
-        top: 50px;
-        right: 160px;
-        
-    }
-    
-    
-    .sprk{
-        position: absolute;
-        font-family: sans-serif;
-        font-size: 30px;
-        top: 90px;
-        left: 200px;
-    }
-    
-    
-    
-    .clean1 {
-        position: absolute;
-        left: 11%;
-        bottom: -80%;
-        max-width: 350px;
-        border-radius: 0.5rem;
-        background-color: #fff;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-        border: 1px solid transparent;
-    }
-    
-    .cardclean1 a {
-        text-decoration: none
-    }
-    
-    .contentclean1 {
-        padding: 1.1rem;
-    }
-    
-    .imageclean1 {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        width: 100%;
-        height: 250px;
-        background-image: url('./images/cleaning1.jpg');
-    }
-    
-    .titleclean1 {
-        color: #111827;
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        font-weight: 600;
-    }
-    
-    .descclean1 {
-        margin-top: 0.5rem;
-        color: #6B7280;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-    }
-    
-    
-    
-    
-    .clean2 {
-        position: absolute;
-        left: 54%;
-        bottom: -80%;
-        max-width: 350px;
-        border-radius: 0.5rem;
-        background-color: #fff;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-        border: 1px solid transparent;
-    }
-    
-    .clean2 a {
-        text-decoration: none
-    }
-    
-    .contentcclean2 {
-        padding: 1.1rem;
-    }
-    
-    .imageclean2 {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        width: 100%;
-        height: 250px;
-        background-image: url('./images/costumize.jpg');
-    }
-    
-    .titleclean2 {
-        color: #111827;
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        font-weight: 600;
-    }
-    
-    .descclean2 {
-        margin-top: 0.5rem;
-        color: #6B7280;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-    }
-    
-    
-    
-    .clean3  {
-        position: absolute;
-        left: 11%;
-        bottom: -145%;
-        max-width: 350px;
-        border-radius: 0.5rem;
-        background-color: #fff;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-        border: 1px solid transparent;
-    }
-    
-    .clean3  a {
-        text-decoration: none
-    }
-    
-    .contentcclean3  {
-        padding: 1.1rem;
-    }
-    
-    .imageclean3 {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        width: 100%;
-        height: 250px;
-        background-image: url('./images/deep.jpg');
-    }
-    
-    .titleclean3  {
-        color: #111827;
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        font-weight: 600;
-    }
-    
-    .descclean3 {
-        margin-top: 0.5rem;
-        color: #6B7280;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-    }
-    
-    
-    .clean4  {
-        position: absolute;
-        left: 54%;
-        bottom: -145%;
-        max-width: 350px;
-        border-radius: 0.5rem;
-        background-color: #fff;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-        border: 1px solid transparent;
-    }
-    
-    .clean4  a {
-        text-decoration: none
-    }
-    
-    .contentcclean4  {
-        padding: 1.6rem;
-    }
-    
-    .imageclean4 {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: 6px;
-        width: 100%;
-        height: 255px;
-        background-image: url('./images/regular.jpg');
-    }
-    
-    .titleclean4  {
-        color: #111827;
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        font-weight: 600;
-    }
-    
-    .descclean4 {
-        margin-top: 0.5rem;
-        color: #6B7280;
-        font-size: 0.875rem;
-        line-height: 1.25rem;
-    }
-    
-    .packages{
-        position: absolute;
-        left: 6%;
-        top: 260%;
-        width:90%;
-        height: 170vh;
-        border: transparent;
-        border-radius: 5px;
-        background-image: url('./images/pack.jpg');
-        background-size: cover;
-    }
-    
-    .t1{
-        font-family: sans-serif;
-        font-size: 1.7rem;
-        position:relative;
-        top: 20px;
-        left: 40%;
-    }
-    
-    .pak{
-        font-family: sans-serif;
-        font-size: 0.8rem;
-        position:relative;
-        top: 20px;
-        left: 3.5%;
-    }
-    
-    .pack1 {
-        position: relative;
-        right: -1%;
-        top: 7%;
-        width: 45%;
-        height: 554px;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-        background: #fff;
-        display: flex;
-        border-radius: 20px;
-        justify-content: center;
-        position: relative;
-        transition: all .4s;
-    }
-    
-    .pack1::before {
-        content: 'Package 1: Sparkling Starter';
-        letter-spacing: 0.2rem;
-        position: absolute;
-        bottom: 8px;
-        left: 20px;
-        color: rgb(51, 51, 51);
-        font-size: 0.5em;
-        font-weight: 700;
-    }
-    
-    .pack1 div {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-    
-        z-index: 10;
-        transition: all .4s;
-        background-color: #fff;
-    }
-    
-    .pack1:hover div {
-        transform: translateY(-30px);
-    }
-    
-    .packs1{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 10px;
-    }
-    
-    .des1{
-        text-align: center;
-        font-size: 12px;
-        position: relative;
-        top: 20px;
-    }
-    
-    
-    .serv1{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 40px;
-    }
-    
-    .servi1{
-        text-align: start;
-        font-size: 0.780rem;
-        position: relative;
-        top: 85px;
-        left: 6%;
-    }
-    
-    .vacc{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 80px;
-        left: 5%;
-    }
-    
-    .dust1{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 100px;
-        left: 5%;
-    }
-    
-    .dusty1{
-        text-align:start;
-        font-size: 0.780rem;
-        position: relative;
-        top: 110px;
-        left: 5%;
-    }
-    .dust2{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 120px;
-        left: 5%;
-    }
-    
-    .dusty2{
-        text-align:start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 130px;
-        left: 5%;
-    }
-    
-    .dust3{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 140px;
-        left: 5%;
-    }
-    
-    .dusty3{
-        text-align:start;
-        font-size: 0.760rem;
-        position: relative;
-        top: 150px;
-        left: 5%;
-    }
-    
-    .price1 {
-        transition: all 0.3s ease-in-out;
-        font-family: "Dosis", sans-serif;
-    }
-    
-    .price1{
-        position: absolute;
-        bottom: 5vh;
-        left: 29%;
-        width: 160px;
-        height: 50px;
-        border-radius: 50px;
-        background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-        box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-        outline: none;
-        cursor: pointer;
-        border: none;
-        font-size: 18px;
-        color: rgb(0, 0, 0);
-    }
-    
-    .price1:hover {
-        transform: translateY(3px);
-        box-shadow: none;
-    }
-    
-    .price1:active {
-        opacity: 0.5;
-    }
-    
-    
-    
-    
-    
-    
-    .pack2 {
-        position: relative;
-        right: -54%;
-        top: -33.5%;
-        width: 45%;
-        height: 554px;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-        background: #fff;
-        display: flex;
-        border-radius: 20px;
-        justify-content: center;
-        position: relative;
-        transition: all .4s;
-    }
-    
-    .pack2::before {
-        content: 'Package 2: Deluxe Deep Dive';
-        letter-spacing: 0.2rem;
-        position: absolute;
-        bottom: 8px;
-        left: 20px;
-        color: rgb(51, 51, 51);
-        font-size: 0.5em;
-        font-weight: 700;
-    }
-    
-    .pack2 div {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-    
-        z-index: 10;
-        transition: all .4s;
-        background-color: #fff;
-    }
-    
-    .pack2:hover div {
-        transform: translateY(-30px);
-    }
-    
-    .packs2{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 10px;
-    }
-    
-    .des2{
-        text-align: center;
-        font-size: 12px;
-        position: relative;
-        top: 20px;
-    }
-    
-    
-    .serv2{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 40px;
-    }
-    
-    .floor{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 70px;
-        left: 5%;
-    }
-    .servi2{
-        text-align: start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 80px;
-        left: 5%;
-    }
-    
-    .dust4{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 100px;
-        left: 5%;
-    }
-    
-    .dusty4{
-        text-align:start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 110px;
-        left: 5%;
-    }
-    .dust5{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 120px;
-        left: 5%;
-    }
-    
-    .dusty5{
-        text-align:start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 130px;
-        left: 5%;
-    }
-    
-    .dust6{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 140px;
-        left: 5%;
-    }
-    
-    .dusty6{
-        text-align:start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 150px;
-        left: 5%;
-    }
-    
-    .price2 {
-        transition: all 0.3s ease-in-out;
-        font-family: "Dosis", sans-serif;
-    }
-    
-    .price2{
-        position: absolute;
-        bottom: 5vh;
-        left: 29%;
-        width: 160px;
-        height: 50px;
-        border-radius: 50px;
-        background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-        box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-        outline: none;
-        cursor: pointer;
-        border: none;
-        font-size: 18px;
-        color: rgb(0, 0, 0);
-    }
-    
-    .price2:hover {
-        transform: translateY(3px);
-        box-shadow: none;
-    }
-    
-    .price2:active {
-        opacity: 0.5;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .pack3 {
-        position: relative;
-        right: -1.1%;
-        top: -30%;
-        width: 45%;
-        height: 554px;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-        background: #fff;
-        display: flex;
-        border-radius: 20px;
-        justify-content: center;
-        position: relative;
-        transition: all .4s;
-    }
-    
-    .pack3::before {
-        content: 'Package 3: Fresh Start Frenzy';
-        letter-spacing: 0.2rem;
-        position: absolute;
-        bottom: 8px;
-        left: 20px;
-        color: rgb(51, 51, 51);
-        font-size: 0.5em;
-        font-weight: 700;
-    }
-    
-    .pack3 div {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-    
-        z-index: 10;
-        transition: all .4s;
-        background-color: #fff;
-    }
-    
-    .pack3:hover div {
-        transform: translateY(-30px);
-    }
-    
-    .packs3{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 10px;
-    }
-    
-    .des3{
-        text-align: center;
-        font-size: 12px;
-        position: relative;
-        top: 20px;
-    }
-    
-    
-    .serv3{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 40px;
-    }
-    
-    .magic{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 70px;
-        left: 5%;
-    }
-    
-    .servi3{
-        text-align: start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 85px;
-        left: 5%;
-    }
-    
-    .surf{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 100px;
-        left: 5%;
-    }
-    
-    .surface{
-        text-align:start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 110px;
-        left: 5%;
-    }
-    .bath{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 120px;
-        left: 5%;
-    }
-    
-    .bat{
-        text-align:start;
-        font-size: 0.750rem;
-        position: relative;
-        top: 130px;
-        left: 5%;
-    }
-    
-    
-    
-    .kud{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 140px;
-        left: 5%;
-    }
-    
-    .kudos{
-        text-align:start;
-        font-size: 0.790rem;
-        position: relative;
-        top: 150px;
-        left: 5%;
-    }
-    
-    .frid{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 160px;
-        left: 5%;
-    }
-    
-    .rev{
-        text-align:start;
-        font-size: 0.760rem;
-        position: relative;
-        top: 180px;
-        left: 5%;
-    }
-    
-    .price3 {
-        transition: all 0.3s ease-in-out;
-        font-family: "Dosis", sans-serif;
-    }
-    
-    .price3{
-        position: absolute;
-        bottom: 3vh;
-        left: 29%;
-        width: 160px;
-        height: 50px;
-        border-radius: 50px;
-        background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-        box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-        outline: none;
-        cursor: pointer;
-        border: none;
-        font-size: 18px;
-        color: rgb(0, 0, 0);
-    }
-    
-    .price3:hover {
-        transform: translateY(3px);
-        box-shadow: none;
-    }
-    
-    .price3:active {
-        opacity: 0.5;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .pack4 {
-        position: relative;
-        right: -54%;
-        top: -70.7%;
-        width: 45%;
-        height: 554px;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
-        background: #fff;
-        display: flex;
-        border-radius: 20px;
-        justify-content: center;
-        position: relative;
-        transition: all .4s;
-    }
-    
-    .pack4::before {
-        content: 'Package 4: Your Dream Clean';
-        letter-spacing: 0.2rem;
-        position: absolute;
-        bottom: 8px;
-        left: 20px;
-        color: rgb(51, 51, 51);
-        font-size: 0.5em;
-        font-weight: 700;
-    }
-    
-    .pack4 div {
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
-    
-        z-index: 10;
-        transition: all .4s;
-        background-color: #fff;
-    }
-    
-    .pack4:hover div {
-        transform: translateY(-30px);
-    }
-    
-    .packs4{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 10px;
-    }
-    
-    .des4{
-        text-align: center;
-        font-size: 12px;
-        position: relative;
-        top: 20px;
-    }
-    
-    
-    .serv4{
-        text-align: center;
-        font-size: 1.1rem;
-        position: relative;
-        top: 40px;
-    }
-    
-    .serving{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 80px;
-        left: 5%;
-    }
-    .servi4{
-        text-align: start;
-        font-size: 0.750rem;
-        position: relative;
-        top: 85px;
-        left: 5%;
-    }
-    
-    .cost{
-        text-align: start;
-        font-size: 1.1rem;
-        position: relative;
-        top: 100px;
-        left: 5%;
-    }
-    
-    .costy{
-        text-align: start;
-        font-size: 0.750rem;
-        position: relative;
-        top: 100px;
-        left: 5%;
-    }
-    
-    
-    .price4 {
-        transition: all 0.3s ease-in-out;
-        font-family: "Dosis", sans-serif;
-    }
-    
-    .price4{
-        position: absolute;
-        bottom: 3vh;
-        left: 29%;
-        width: 160px;
-        height: 50px;
-        border-radius: 50px;
-        background-image: linear-gradient(135deg, #abfe92 0%, #54ea6d 100%);
-        box-shadow: 0 20px 30px -6px rgba(97, 238, 104, 0.5);
-        outline: none;
-        cursor: pointer;
-        border: none;
-        font-size: 18px;
-        color: rgb(0, 0, 0);
-    }
-    
-    .price4:hover {
-        transform: translateY(3px);
-        box-shadow: none;
-    }
-    
-    .price4:active {
-        opacity: 0.5;
-    }
-}

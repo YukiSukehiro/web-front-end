@@ -12,12 +12,11 @@ return (
             </div>
             <div>
             <h1 className='spark'> Sparkling Homes</h1>
-            <p className='paragraph'>Welcome to Sparkling Homes, your one-stop shop for simple and convenient house cleaning bookings</p>
+            <p className='paragraph'>"Welcome to Sparkling Homes, where cleanliness meets convenience. Get ready to experience a spotless home with just a few clicks!"</p>
                 </div>
         </div>
-        <a href='/about-us'>
-        <button className='learn'> LEARN MORE
-</button>
+        <a href='/about-us' style={{textDecoration: 'none'}}>
+        <button className='learn' > LEARN MORE</button>
     </a>
     </div>
     </>

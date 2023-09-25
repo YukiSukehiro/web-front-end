@@ -6,34 +6,59 @@ body{
 
 
 .sign-in{
+    min-height: 100vh;
     background-image: url('./images/serve.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-size: 100px;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 91vh;
-    font-size: 3rem; 
     
 }
 
 
+.signin-card {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
 
+.signin-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+strong {
+    text-decoration: none;
+}
+.signin-btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 .log-in{
     transition: all 0.3s ease-in-out;
     font-family: "Dosis", sans-serif;
 }
 
 .log-in {
-    position: absolute;
+    text-decoration: none;
     bottom: 2.5vh;
     left: 35%;
     width: 160px;
-    height: 50px;
     border-radius: 50px;
+    padding: 12px 12px;
     background-image: linear-gradient(135deg, #92b1fe 0%, #0066ff 100%);
     box-shadow: 0 20px 30px -6px rgba(97, 175, 238, 0.5);
     outline: none;
@@ -73,3 +98,4 @@ body{
 .create:active {
     opacity: 0.5;
 }
+

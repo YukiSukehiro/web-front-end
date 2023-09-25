@@ -1,7 +1,6 @@
 import React,{ useState } from "react";
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import sparkly from './pages/images/sparkly.png'
+import sparkly from './pages/images/sparkle.png'
 import './Navbar.css';
 
 
@@ -28,7 +27,7 @@ function Navbar() {
                 <img className="logo" src={sparkly} width={110}  alt='upang'/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
-                    <i className={click ? 'fa-solid fa-xmark': 'fas fa-bars'} />
+                    <i className={click ?  'fas fa-bars' : 'fa-solid fa-xmark'} />
                 </div>
                 <ul  className= {!click ? 'nav-menu active':'nav-menu' }>
                     <li className='nav-item'>
@@ -59,9 +58,9 @@ function Navbar() {
                             Sign In
                         </Link>
                     </li>
+                    
                 </ul>
-                <Button />
-        </nav>
+            </nav>
         </>
     );
 }

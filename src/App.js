@@ -10,6 +10,7 @@ import AboutUs from './components/pages/AboutUS';
 import SignIn from './components/pages/SignIn';
 import Register from './components/pages/Register'
 import Footer from './components/Footer';
+import Views from './components/pages/Views';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/about-us' element={<AboutUs/>}/>
         <Route path='/sign-in' element={<SignIn/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/views' element={<Views/>}/>
       </Routes>
     </Router>
   <Footer/>

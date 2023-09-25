@@ -15,32 +15,31 @@ return (
     <div className= "container">
     <div className="row1">
     <div className='social'>
-                <h3> Follow Us </h3>
-                <div>
-                    <a style={{textDecoration: 'none'}} href='https://www.facebook.com/Ajeple' target='_blank' rel='noreferrer' className="fa-brands fa-square-facebook">
-                    </a>
-                    </div>
-                    <div >
-                    <a style={{textDecoration: 'none'}} href='https://twitter.com/ShinChoiOhab' target='_blank' rel='noreferrer'  className="fa-brands fa-square-instagram">
-                    
-                    </a>
-                    </div>
-                    <a style={{textDecoration: 'none'}} href='https://www.instagram.com/diazjohnnilo/' target='_blank' rel='noreferrer' className="fa-brands fa-square-twitter">
-                    </a>
+
+        <img className="logo" src={logo} width={100}  alt='upang'/>
+        <h4 className='title'>Sparkling Homes</h4>
+        <p className='sub-title'>"Bringing the Glamour to Your Living Spaces!✨"</p>
+        <h5> Follow Us </h5>
+        <div>
+            <a style={{textDecoration: 'none'}} href='https://www.facebook.com/Ajeple' target='_blank' rel='noreferrer' className="fa-brands fa-square-facebook">
+            </a>
+        </div>
+        <div >
+            <a style={{textDecoration: 'none'}} href='https://twitter.com/ShinChoiOhab' target='_blank' rel='noreferrer'  className="fa-brands fa-square-instagram">     
+            </a>
+        </div>
+            <a style={{textDecoration: 'none'}} href='https://www.instagram.com/diazjohnnilo/' target='_blank' rel='noreferrer' className="fa-brands fa-square-twitter">
+            </a>
+        <div>
+            <h6>sparklinghomes@gmail.com</h6>
+        </div>
+        </div>
             </div>
-    <img className="logo" src={logo} width={100}  alt='upang'/>
-        <h4>PHINMA University of Pangasinan</h4>
-        <p>College of Information and Technology</p>
-        
-                {/* Column1 */}
+            <div className="row">
+                &copy;{new Date().getFullYear()} Sparkling Homes | All Right Reserved | Term Of Service | Privacy 
             </div>
     </div>
-    <hr />
-    <div className="row">
-            <p className="col-sm">
-                &copy;{new Date().getFullYear()} Sparkling Homes | All Right Reserved | Term Of Service | Privacy 
-            </p>
-        </div>
+  
         </div>
     </>
 
