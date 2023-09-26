@@ -4,7 +4,7 @@ function Validation(values) {
     const password_pattern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,}$/
 
     if(values.email === ""){
-        error.email = "Tang ina mo lagyan mo ng email"
+        error.email = "Enter a email"
     }
     else if(!email_pattern.test(values.email)){
         error.email = "Email Didn't Match"
@@ -13,7 +13,7 @@ function Validation(values) {
     }
 
     if(values.password === ""){
-        error.password = "Tang ina mo lagyan mo ng password"
+        error.password = "Enter password"
     }
     else if(!password_pattern.test(values.password)){
         error.password = "Password Didn't Match"
